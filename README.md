@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Davide</h1>
 <h3 align="center">A passionate backend developer from Italy</h3>
 
-- 🌱 I’m currently learning **Spring, Kotlin, Flutter**
+- 🌱 I’m currently learning **Spring, Kotlin, Agentic AI**
 
 - 📫 How to reach me **ferraridavide89@gmail.com**
 
