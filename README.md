@@ -1,6 +1,6 @@
 <!-- ░░░ HEADER ░░░ -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:d97757&height=200&section=header&text=Davide%20Ferrari&fontSize=56&fontColor=ffffff&fontAlignY=36&desc=Software%20Architecture%20%C3%97%20AI-Assisted%20Development&descSize=18&descAlignY=58&animation=fadeIn" alt="Davide Ferrari" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:d97757&height=200&section=header&text=Davide%20Ferrari&fontSize=56&fontColor=ffffff&fontAlignY=36&desc=Enterprise%20Software%20Architecture%20%C3%97%20AI-Assisted%20Development&descSize=18&descAlignY=58&animation=fadeIn" alt="Davide Ferrari" width="100%"/>
 </p>
 
 <p align="center">
@@ -12,7 +12,6 @@
 <p align="center">
   <a href="https://linkedin.com/in/davferrari"><img src="https://img.shields.io/badge/LinkedIn-davferrari-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
   <img src="https://img.shields.io/badge/Based%20in-Italy%20🇮🇹-302b63?style=for-the-badge" alt="Italy"/>
-  <img src="https://img.shields.io/badge/CGM%20Star-2025%20⭐-d97757?style=for-the-badge" alt="CGM Star 2025"/>
   <img src="https://komarev.com/ghpvc/?username=davideferrari&style=for-the-badge&color=0f0c29&label=PROFILE+VIEWS" alt="Profile views"/>
 </p>
 
@@ -24,16 +23,18 @@
 object Davide : Engineer, AgentWrangler {
 
     val role       = "Senior Lead Developer @ CompuGroup Medical · Core Team"
-    val focus      = listOf("Software Architecture", "AI-Assisted Development", "Event-Driven Systems")
+    val focus      = listOf("Enterprise Software Architecture", "AI-Assisted Development", "Event-Driven Systems")
     val experience = "10+ years backend · 3+ years technical leadership"
     val scope      = "architecture & dev guidelines for 8 international teams"
 
-    val pairsWith  = listOf("Claude Code", "GitHub Copilot", "Cursor", "OpenCode")
+    val atWork     = listOf("OpenCode", "GitHub Copilot", "Cursor")
+    val afterHours = listOf("Claude Code")
     val workflow   = listOf("Spec-Driven Development", "Agent Skills", "MCP", "Prompt Engineering")
     val speaks     = listOf("Kotlin", "Java", "Python", "C++", "C#")
 
-    val motto      = "AI writes the code faster. It doesn't pick the architecture, " +
-                     "and it doesn't replace the tests that prove it's right."
+    val awards     = listOf("CGM Star 2025", "CGM Star 2026")
+
+    val motto      = "Doesn't matter who wrote the code. If the tests aren't green, it's not done."
 }
 ```
 
@@ -43,7 +44,7 @@ object Davide : Engineer, AgentWrangler {
 
 ```mermaid
 flowchart LR
-    S["📝 Spec<br/><sub>Spec Kit · BMAD</sub>"] --> A["🤖 Coding agents<br/><sub>Claude Code · Copilot · Cursor · OpenCode</sub>"]
+    S["📝 Spec<br/><sub>Spec Kit · BMAD</sub>"] --> A["🤖 Coding agents<br/><sub>OpenCode · Copilot · Cursor · Claude Code</sub>"]
     K["🧩 Agent skills<br/><sub>Superpowers · Ponytail</sub>"] --> A
     M["🔌 MCP servers<br/><sub>tools & context</sub>"] --> A
     A --> T["🧪 Tests<br/><sub>unit · E2E · load · stress</sub>"]
@@ -70,10 +71,10 @@ A single-instance **Spring WebFlux** service, built on custom libraries that few
 ## 🧰 AI toolbox
 
 <p>
-  <img src="https://img.shields.io/badge/Claude%20Code-daily%20driver-D97757?style=flat-square&logo=claude&logoColor=white" alt="Claude Code"/>
+  <img src="https://img.shields.io/badge/OpenCode-at%20work-1e1e2e?style=flat-square&logo=gnubash&logoColor=white" alt="OpenCode at work"/>
+  <img src="https://img.shields.io/badge/Claude%20Code-side%20projects-D97757?style=flat-square&logo=claude&logoColor=white" alt="Claude Code for side projects"/>
   <img src="https://img.shields.io/badge/GitHub%20Copilot-000000?style=flat-square&logo=githubcopilot&logoColor=white" alt="GitHub Copilot"/>
   <img src="https://img.shields.io/badge/Cursor-111111?style=flat-square&logo=cursor&logoColor=white" alt="Cursor"/>
-  <img src="https://img.shields.io/badge/OpenCode-1e1e2e?style=flat-square&logo=gnubash&logoColor=white" alt="OpenCode"/>
   <img src="https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white" alt="Claude"/>
   <img src="https://img.shields.io/badge/ChatGPT-74AA9C?style=flat-square&logo=openai&logoColor=white" alt="ChatGPT"/>
   <img src="https://img.shields.io/badge/MCP-Model%20Context%20Protocol-302b63?style=flat-square" alt="MCP"/>
@@ -81,7 +82,7 @@ A single-instance **Spring WebFlux** service, built on custom libraries that few
   <img src="https://img.shields.io/badge/Agent%20Skills-Superpowers%20·%20Ponytail-6e40c9?style=flat-square" alt="Agent Skills"/>
 </p>
 
-## 🏗️ Stack & architecture
+## 🏗️ Stack & enterprise architecture
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=kotlin,java,spring,postgres,elasticsearch,rabbitmq,redis,docker,kubernetes,gitlab&perline=10" alt="Core stack"/>
