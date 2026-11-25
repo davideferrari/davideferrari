@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="https://linkedin.com/in/davferrari"><img src="https://img.shields.io/badge/LinkedIn-davferrari-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-  <img src="https://img.shields.io/badge/M.Sc.%20Computer%20Engineering-110%2F110%20cum%20laude%20🎓-6e40c9?style=for-the-badge" alt="M.Sc. Computer Engineering, 110/110 cum laude"/>
+  <img src="https://img.shields.io/badge/M.Sc.%20Computer%20Engineering-110%2F110%20with%20honors%20🎓-6e40c9?style=for-the-badge" alt="M.Sc. Computer Engineering, 110/110 with honors"/>
   <img src="https://img.shields.io/badge/Based%20in-Italy%20🇮🇹-302b63?style=for-the-badge" alt="Italy"/>
   <img src="https://komarev.com/ghpvc/?username=davideferrari&style=for-the-badge&color=0f0c29&label=PROFILE+VIEWS" alt="Profile views"/>
 </p>
@@ -20,12 +20,12 @@
 
 ## `$ whoami`
 
-**Computer Engineer** with an **M.Sc. in Computer Engineering (110/110 cum laude)** from the University of Bergamo, 10+ years building backend systems, now focused on enterprise software architecture and AI-assisted development.
+**Computer Engineer** with an **M.Sc. in Computer Engineering (110/110 with honors)** from the University of Bergamo, 10+ years building backend systems, now focused on enterprise software architecture and AI-assisted development.
 
 ```kotlin
 object Davide : ComputerEngineer, AgentWrangler {
 
-    val education  = "M.Sc. Computer Engineering · University of Bergamo · 110/110 cum laude"
+    val education  = "M.Sc. Computer Engineering · University of Bergamo · 110/110 with honors"
     val role       = "Senior Lead Developer @ CompuGroup Medical · Core Team"
     val focus      = listOf("Enterprise Software Architecture", "AI-Assisted Development", "Event-Driven Systems")
     val experience = "10+ years backend · 3+ years technical leadership"
