@@ -11,6 +11,7 @@
 
 <p align="center">
   <a href="https://linkedin.com/in/davferrari"><img src="https://img.shields.io/badge/LinkedIn-davferrari-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <img src="https://img.shields.io/badge/M.Sc.%20Computer%20Engineering-110%2F110%20cum%20laude%20🎓-6e40c9?style=for-the-badge" alt="M.Sc. Computer Engineering, 110/110 cum laude"/>
   <img src="https://img.shields.io/badge/Based%20in-Italy%20🇮🇹-302b63?style=for-the-badge" alt="Italy"/>
   <img src="https://komarev.com/ghpvc/?username=davideferrari&style=for-the-badge&color=0f0c29&label=PROFILE+VIEWS" alt="Profile views"/>
 </p>
@@ -19,9 +20,12 @@
 
 ## `$ whoami`
 
-```kotlin
-object Davide : Engineer, AgentWrangler {
+**Computer Engineer** with an **M.Sc. in Computer Engineering (110/110 cum laude)** from the University of Bergamo, 10+ years building backend systems, now focused on enterprise software architecture and AI-assisted development.
 
+```kotlin
+object Davide : ComputerEngineer, AgentWrangler {
+
+    val education  = "M.Sc. Computer Engineering · University of Bergamo · 110/110 cum laude"
     val role       = "Senior Lead Developer @ CompuGroup Medical · Core Team"
     val focus      = listOf("Enterprise Software Architecture", "AI-Assisted Development", "Event-Driven Systems")
     val experience = "10+ years backend · 3+ years technical leadership"
@@ -111,8 +115,6 @@ A single-instance **Spring WebFlux** service, built on custom libraries that few
 | 📐 | [Mastering the System Design Interview](https://www.udemy.com/certificate/UC-82c65bd1-1302-4596-92d3-1dfc91092ff3/) | 2025 |
 | 🧩 | [Microservices: Designing Highly Scalable Systems](https://www.udemy.com/certificate/UC-9a0cc768-a2f9-400a-ba21-126d26c749b4/) | 2024 |
 | 🐍 | AI Programming with Python Nanodegree · Udacity | 2019 |
-
-🎓 M.Sc. Computer Engineering, University of Bergamo · 110/110 cum laude
 
 </details>
 
